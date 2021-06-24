@@ -1,0 +1,13 @@
+
+server:
+  port: 8000
+
+keycloak:
+  realm: My-Realm
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: external
+  resource: springboot-microservice
+  credentials:
+    secret: 87387554-4dfc-4099-846b-28ed1ad15b87
+  use-resource-role-mappings: true
+  bearer-only: true
